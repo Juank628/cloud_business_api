@@ -11,6 +11,9 @@ provider:
   environment: 
     NODE_ENV: ${self:custom.secrets.NODE_ENV}
     DB: ${self:custom.secrets.DB}
+    USER_POOL_ID: ${self:custom.secrets.USER_POOL_ID}
+    CLIENT_ID: ${self:custom.secrets.CLIENT_ID}
+    POOL_REGION: ${self:custom.secrets.POOL_REGION}
 
 functions:
   app:
